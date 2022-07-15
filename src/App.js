@@ -82,8 +82,9 @@ function App() {
           </div>
         </div>
       </div>
+      <hr className="hr-dark" />
 
-      <div className="container container--middle centered">
+      <div className="container container--middle centered content">
         <img src={releaseImage} alt="Potrait of Enton" />
         <h2 className="title">Die letzte Rose</h2>
         <p className="description">Das neue Album<br />12. November 2022</p>
@@ -101,16 +102,18 @@ function App() {
             <a href="https://google.com">Download Pressefotos</a>
           </div>
         </div>
-      </div>
 
-       <div className="acontent centered">
+        <div className="content centered">
           <span>fb</span>
           <span>insta</span>
           <span>tik</span>
-      </div>
+        </div>
 
-      <div className="content copyright">
-        <span>2022 The Beautiful Blind</span>
+        <div className="content copyright">
+          <span>2022 The Beautiful Blind</span>
+        </div>
+
+
       </div>
     </div>
   );
