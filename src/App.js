@@ -1,4 +1,6 @@
 import './App.scss';
+import logo from './images/logo.svg'
+import hero from './images/bb-hero.jpg'
 import releaseImage from './images/enton.jpg'
 
 function App() {
@@ -7,34 +9,71 @@ function App() {
       <div className="container container--top">
         <nav className="navigation">
           <ul className="navigation__list">
-            <li className="navigation__item">About</li>
-            <li className="navigation__item">Live</li>
-            <li className="navigation__item">Album</li>
-            <li className="navigation__item">Kontakt</li>
+            <li className="navigation__item">
+              <a href='#about'>About</a>
+            </li>
+            <li className="navigation__item">
+              <a href='#live'>Live</a>
+            </li>
+            <li className="navigation__item">
+              <a href='#release'>Album</a>
+            </li>
+            <li className="navigation__item">
+              <a href='#contact'>Kontakt</a>
+            </li>
           </ul>
         </nav>
 
-        <div className="logo">LOGO</div>
-        <div className="hero">HERO??</div>
-
-        <div className="content content--dual">
-          <div className="content__col"></div>
-          <div className="content__col"></div>
+        <div className="logo">
+          <img src={logo} alt="Beautiful Blind logo" className="logo__image" />
+        </div>
+        <div className="hero">
+          <img src={hero} alt="The Beautiful Blind" className="hero__image" />
         </div>
 
         <div className="content content--dual">
-          <div className="container__col">
+          <div className="content__col about__title">
+            Die Katze deiner Nachbarn faucht dich jeden Morgen an,
+            sie versperrt dir den Weg und du bist wieder zu spät dran –
+            mit The Beautiful Blind ist das egal.
+          </div>
+          <div className="content__col">
+            <p className="about__description">
+              The Beautiful Blind sind ein noch unbeschriebenes Blatt,
+              sie waren noch nie auf Österreich-Tournee und bewegen sich
+              irgendwo zwischen Indietronic und Alternative Rock.
+              Ihre Songtexte über Alltagssituationen, ein bisschen persönlicher
+              Vergangenheitsbewältigung und ein bisschen Gesellschaftskritik sind
+              mal humorvoll, mal melancholisch und mal beides oder weder noch.
+            </p>
+
+            <p className="about__description">
+              Die drei Ostschweizer Jonas, Fabian und Dominik und der Luzerner Ändu
+              produzieren mit Gitarre, Drums, Synthesizer und Bass in
+              einem staubigen Zürcher Keller Tunes zu denen man tanzen, sitzen,
+              lachen, weinen oder mitgrölen kann.
+            </p>
+
+            <p className="about__description">
+              The Beautiful Blind sind auch ein Stück aus der Region für die Region.
+            </p>
+          </div>
+        </div>
+        <hr className="hr-dark" />
+
+        <div className="content content--dual">
+          <div className="content__col">
             <h1>Live</h1>
           </div>
-          <div className="container__col">
-            <div className="container__item">
+          <div className="content__col">
+            <div className="content__item">
               <h2>05.08.2022</h2>
               <p>Openair Friendsheep</p>
               <p>Mosnang SG</p>
               <a href="https://google.com">Tickets</a>
             </div>
 
-             <div className="container__item">
+             <div className="content__item">
               <h2>27.08.2022</h2>
               <p>Zürich Openair</p>
               <p>Glattbrugg ZH</p>
@@ -64,7 +103,7 @@ function App() {
         </div>
       </div>
 
-       <div className="content centered">
+       <div className="acontent centered">
           <span>fb</span>
           <span>insta</span>
           <span>tik</span>
