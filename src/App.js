@@ -75,11 +75,11 @@ function App() {
               <a className="event__tickets cta cta--dark" href="https://google.com">Tickets</a>
             </div>
 
-             <div className="content__item">
-              <h2>27.08.2022</h2>
-              <p>Zürich Openair</p>
-              <p>Glattbrugg ZH</p>
-              <a href="https://google.com">Tickets</a>
+             <div className="event">
+              <h2 className="event__date">27.08.2022</h2>
+              <p className="event__location">Zürich Openair</p>
+              <p  className="event__location">Glattbrugg ZH</p>
+              <a  className="event__tickets cta cta--dark" href="https://google.com">Tickets</a>
             </div>
           </div>
         </div>
