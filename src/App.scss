@@ -103,14 +103,6 @@ p {
 }
 
 .event {
-  &:first-of-type {
-    margin-bottom: 2rem;
-  }
-
-  &:last-of-type {
-    margin-top: 2rem;
-  }
-
   &__date {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
@@ -137,7 +129,7 @@ p {
   margin: 0 3rem;
 
   &--event {
-    margin: 0;
+    margin: 2rem 0;
   }
 }
 

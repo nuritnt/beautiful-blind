@@ -82,6 +82,7 @@ function App() {
               <p  className="event__location">Glattbrugg ZH</p>
               <a  className="event__tickets cta" href="https://google.com">Tickets</a>
             </div>
+
           </div>
         </div>
       </div>
