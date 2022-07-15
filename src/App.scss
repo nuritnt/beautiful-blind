@@ -6,11 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #3E2262;
   background: #FFAF56;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+
+  &.lead {
+    font-size: 1.3rem;
+  }
 }
 
 .container {
@@ -83,21 +92,27 @@ body {
   }
 }
 
-.about {
-  &__title {
-    font-size: 1.3rem;
-    line-height: 1.6;
+.event {
+  &__date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin: 0;
   }
 
-  &__description {
-    font-size: 1rem;
-    line-height: 1.5;
+  &__location {
+    margin: 0;
+  }
+
+  &__tickets {
+    margin: 1rem 0;
+    display: inline-block;
   }
 }
 
 
-// BASE //
 
+// BASE //
+// TODO: refactor light/dark
 .hr-light {
   border-top: 1px solid #FFAF56;
   border-bottom: 0;
@@ -108,4 +123,39 @@ body {
   border-top: 1px solid #3E2262;
   border-bottom: 0;
   margin: 0 3rem;
+}
+
+// TODO: refactor light/dark
+.cta {
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem;
+
+  &--light {
+    background-color: #FFAF56;
+    color: #3E2262;
+  }
+
+  &--dark {
+    background-color: #3E2262;
+    color: #FFAF56;
+  }
+}
+
+.headline {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+
+  &--small {
+    font-size: 2rem;
+  }
+
+  &--medium {
+    font-size: 3rem;
+  }
+
+  &--large {
+    font-size: 6rem;
+  }
 }

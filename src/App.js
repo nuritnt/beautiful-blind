@@ -32,13 +32,15 @@ function App() {
         </div>
 
         <div className="content content--dual">
-          <div className="content__col about__title">
-            Die Katze deiner Nachbarn faucht dich jeden Morgen an,
-            sie versperrt dir den Weg und du bist wieder zu spät dran –
-            mit The Beautiful Blind ist das egal.
+          <div className="content__col">
+            <p className="lead">
+              Die Katze deiner Nachbarn faucht dich jeden Morgen an,
+              sie versperrt dir den Weg und du bist wieder zu spät dran –
+              mit The Beautiful Blind ist das egal.
+            </p>
           </div>
           <div className="content__col">
-            <p className="about__description">
+            <p>
               The Beautiful Blind sind ein noch unbeschriebenes Blatt,
               sie waren noch nie auf Österreich-Tournee und bewegen sich
               irgendwo zwischen Indietronic und Alternative Rock.
@@ -47,14 +49,14 @@ function App() {
               mal humorvoll, mal melancholisch und mal beides oder weder noch.
             </p>
 
-            <p className="about__description">
+            <p>
               Die drei Ostschweizer Jonas, Fabian und Dominik und der Luzerner Ändu
               produzieren mit Gitarre, Drums, Synthesizer und Bass in
               einem staubigen Zürcher Keller Tunes zu denen man tanzen, sitzen,
               lachen, weinen oder mitgrölen kann.
             </p>
 
-            <p className="about__description">
+            <p>
               The Beautiful Blind sind auch ein Stück aus der Region für die Region.
             </p>
           </div>
@@ -62,15 +64,15 @@ function App() {
         <hr className="hr-dark" />
 
         <div className="content content--dual">
-          <div className="content__col">
-            <h1>Live</h1>
+          <div className="content__col ">
+            <h1 className="headline headline--medium">Live</h1>
           </div>
           <div className="content__col">
-            <div className="content__item">
-              <h2>05.08.2022</h2>
-              <p>Openair Friendsheep</p>
-              <p>Mosnang SG</p>
-              <a href="https://google.com">Tickets</a>
+            <div className="event">
+              <h2 className="event__date">05.08.2022</h2>
+              <p className="event__location">Openair Friendsheep</p>
+              <p className="event__location">Mosnang SG</p>
+              <a className="event__tickets cta cta--dark" href="https://google.com">Tickets</a>
             </div>
 
              <div className="content__item">
