@@ -61,7 +61,7 @@ function App() {
             </p>
           </div>
         </div>
-        <hr className="hr-dark" />
+        <hr className="hr" />
 
         <div className="content content--dual">
           <div className="content__col ">
@@ -72,19 +72,20 @@ function App() {
               <h2 className="event__date">05.08.2022</h2>
               <p className="event__location">Openair Friendsheep</p>
               <p className="event__location">Mosnang SG</p>
-              <a className="event__tickets cta cta--dark" href="https://google.com">Tickets</a>
+              <a className="event__tickets cta" href="https://google.com">Tickets</a>
             </div>
+            <hr className="hr hr--event" />
 
              <div className="event">
               <h2 className="event__date">27.08.2022</h2>
               <p className="event__location">Zürich Openair</p>
               <p  className="event__location">Glattbrugg ZH</p>
-              <a  className="event__tickets cta cta--dark" href="https://google.com">Tickets</a>
+              <a  className="event__tickets cta" href="https://google.com">Tickets</a>
             </div>
           </div>
         </div>
       </div>
-      <hr className="hr-dark" />
+      <hr className="hr" />
 
       <div className="container container--middle centered content">
         <img src={releaseImage} alt="Potrait of Enton" />
@@ -97,14 +98,15 @@ function App() {
         <div className="content content--dual">
           <div className="content__col">
             <h2>Kontakt</h2>
-            <a href="mailto:https://google.com">info@fabian.ch</a>
+            <a className="cta" href="mailto:https://google.com">info@fabian.ch</a>
           </div>
           <div className="content__col">
             <h2>Medien</h2>
-            <a href="https://google.com">Download Pressefotos</a>
+            <a className="cta" href="https://google.com">Download Pressefotos</a>
           </div>
         </div>
 
+        <hr className="hr"/>
         <div className="content centered">
           <span>fb</span>
           <span>insta</span>
