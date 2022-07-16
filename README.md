@@ -35,7 +35,7 @@ You may also see any lint errors in the console.
     - [x] add album release
     - [x] add contact
     - [x] add sm icons and footer
-    - [ ] make responsive
+    - [x] make responsive
     - [ ] make logo smaller when scrolling
 - [ ] split layout to components
 - [x] deploy on netlify
