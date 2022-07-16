@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
 body {
   --light-color: #FFAF56;
   --dark-color: #3E2262;
@@ -12,8 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: 'Space Mono', monospace;
-  font-size: 20px;
-  line-height: 1.4;
   color: var(--text-color);
   background-color: var(--bg-color);
 }
@@ -180,7 +183,7 @@ p {
 }
 
 .release {
-  width: 60%;
+  max-width: 45rem;
   margin: 2rem auto;
 
   &__image {
