@@ -21,6 +21,7 @@ body {
   --dark-color: #3E2262;
   --bg-color: var(--light-color);
   --text-color: var(--dark-color);
+  --gutter: 3rem;
 
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +30,10 @@ body {
   font-family: 'Space Mono', monospace;
   color: var(--text-color);
   background-color: var(--bg-color);
+
+  @include bp-mobile {
+    --gutter: 2rem;
+  }
 }
 
 p {
@@ -44,11 +49,7 @@ p {
   border-top: 1px solid var(--text-color);
 
   border-bottom: 0;
-  margin: 0 3rem;
-
-  @include bp-mobile() {
-    margin: 0 2rem;
-  }
+  margin: 0 var(--gutter);
 
   &--event {
     margin: 2rem 0;
@@ -70,6 +71,7 @@ p {
 }
 
 .cta {
+  display: inline-block;
   color: var(--bg-color);
   background-color: var(--text-color);
 
@@ -182,11 +184,7 @@ p {
 }
 
 .content {
-  padding: 3rem;
-
-  @include bp-mobile() {
-    padding: 2rem;
-  }
+  padding: var(--gutter);
 
   &--dual {
     display: flex;
@@ -199,6 +197,11 @@ p {
 
     @include bp-mobile() {
       width: 100%;
+      margin-top: 1rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
     }
   }
 }
@@ -260,10 +263,6 @@ p {
 
   &__title {
     margin-bottom: 1rem;
-
-    @include bp-mobile() {
-      margin: 1rem 0;
-    }
   }
 }
 
