@@ -32,7 +32,7 @@ You may also see any lint errors in the console.
     - [x] add events and dates
     - [x] add album release
     - [x] add contact
-    - [ ] add sm icons and footer
+    - [x] add sm icons and footer
     - [ ] make responsive
 - [ ] split layout to components
 - [ ] deploy on netlify

@@ -115,9 +115,11 @@ function App() {
 
         <hr className="hr"/>
         <div className="content centered">
-          <span>fb</span>
-          <span>insta</span>
-          <span>tik</span>
+          <div className="socials">
+            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
+            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
+            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
+          </div>
         </div>
 
         <div className="content copyright">
