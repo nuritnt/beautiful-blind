@@ -30,7 +30,7 @@ You may also see any lint errors in the console.
     - [x] add hero
     - [x] add about
     - [x] add events and dates
-    - [ ] add album release
+    - [x] add album release
     - [ ] add contact
     - [ ] add sm icons and footer
     - [ ] make responsive

@@ -2,6 +2,7 @@ import './App.scss';
 import logo from './images/logo.svg'
 import hero from './images/bb-hero.jpg'
 import releaseImage from './images/enton.jpg'
+import spotify from './icons/spotify.svg'
 
 function App() {
   return (
@@ -85,14 +86,19 @@ function App() {
 
           </div>
         </div>
-      </div>
       <hr className="hr" />
+      </div>
 
-      <div className="container container--middle centered content">
-        <img src={releaseImage} alt="Potrait of Enton" />
-        <h2 className="title">Die letzte Rose</h2>
-        <p className="description">Das neue Album<br />12. November 2022</p>
-
+      <div className="container container--middle">
+        <div className="content release centered">
+          <img src={releaseImage} alt="Potrait of Enton" className="release__image" />
+          <h2 className="headline headline--large">Die letzte Rose</h2>
+          <p className="small-hr">Das neue Album<br />12. November 2022</p>
+          <div className="socials">
+            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
+          </div>
+        </div>
+        <hr className="hr" />
       </div>
 
       <div className="container container--bottom">

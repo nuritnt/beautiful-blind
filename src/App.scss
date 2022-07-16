@@ -119,6 +119,21 @@ p {
   }
 }
 
+.release {
+  width: 60%;
+  margin: 2rem auto;
+
+  &__image {
+    margin: 1rem auto;
+  }
+}
+
+.socials {
+  &__icon {
+    height: 60px;
+    width: 100%;
+  }
+}
 
 
 // BASE //
@@ -130,6 +145,17 @@ p {
 
   &--event {
     margin: 2rem 0;
+  }
+}
+
+// check this
+.small-hr {
+  &::after {
+    content: '';
+    display: block;
+    margin: 2rem auto;
+    width: 50px;
+    border-bottom: solid 5px var(--text-color);
   }
 }
 
@@ -161,5 +187,10 @@ p {
 
   &--large {
     font-size: 6rem;
+    line-height: 0.9;
   }
+}
+
+.centered {
+  text-align: center;
 }
