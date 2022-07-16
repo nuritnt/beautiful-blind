@@ -31,7 +31,7 @@ You may also see any lint errors in the console.
     - [x] add about
     - [x] add events and dates
     - [x] add album release
-    - [ ] add contact
+    - [x] add contact
     - [ ] add sm icons and footer
     - [ ] make responsive
 - [ ] split layout to components
