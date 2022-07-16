@@ -34,6 +34,7 @@ You may also see any lint errors in the console.
     - [x] add contact
     - [x] add sm icons and footer
     - [ ] make responsive
+    - [ ] make logo smaller when scrolling
 - [ ] split layout to components
 - [ ] deploy on netlify
 - [ ] add domain
