@@ -42,4 +42,5 @@ You may also see any lint errors in the console.
 - [ ] add domain
 - [ ] set up (prismic.io)
 - [ ] get data from prismic and replace in the app
+- [ ] add seo
 
