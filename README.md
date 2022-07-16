@@ -6,6 +6,8 @@ Songs & Tunes aus dem Herzen Zurigos.
 Designed provided by [diluno.com](https://www.diluno.com/).
 Sketch file can be found [here](https://www.sketch.com/s/21e3c106-669d-434b-8c2b-f86d3dee3503/a/ygaV9Rz).
 
+## Deployment
+Site is deployed on netlify. Preview link is (here)[https://singular-panda-ff796a.netlify.app/]
 
 ## Development
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -36,7 +38,7 @@ You may also see any lint errors in the console.
     - [ ] make responsive
     - [ ] make logo smaller when scrolling
 - [ ] split layout to components
-- [ ] deploy on netlify
+- [x] deploy on netlify
 - [ ] add domain
 - [ ] set up (prismic.io)
 - [ ] get data from prismic and replace in the app
