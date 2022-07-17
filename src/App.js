@@ -4,13 +4,14 @@ import Logo from "./components/Logo";
 import Events from "./components/Events";
 import Release from "./components/Release";
 import Contact from "./components/Contact";
+import Socials from "./components/Socials";
 
 // styles
 import "./App.scss";
 
 // assets
 import hero from "./assets/images/bb-hero.jpg";
-import spotify from "./assets/icons/spotify.svg";
+import releaseIcons from "./assets/releaseIcons.json";
 
 function App() {
   return (
@@ -70,11 +71,7 @@ function App() {
 
         <hr className="hr" />
         <div className="content centered">
-          <div className="socials">
-            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
-            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
-            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
-          </div>
+          <Socials icons={releaseIcons.icons} />
         </div>
 
         <div className="content copyright">

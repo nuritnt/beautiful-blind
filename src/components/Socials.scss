@@ -1,0 +1,15 @@
+@import '../helpers';
+
+.socials {
+  display: flex;
+  justify-content: center;
+
+  &__icon {
+    height: 60px;
+    padding: 0 1rem;
+
+    @include bp-mobile() {
+      height: 40px;
+    }
+  }
+}
