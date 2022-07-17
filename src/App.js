@@ -1,7 +1,7 @@
 // components
 import Navigation from "./components/Nav";
 import Logo from "./components/Logo";
-import Event from "./components/Event";
+import Events from "./components/Events";
 import Release from "./components/Release";
 
 // styles
@@ -55,16 +55,7 @@ function App() {
         </div>
         <hr className="hr" />
 
-        <div className="content content--dual">
-          <div className="content__col ">
-            <h1 className="headline headline--medium">Live</h1>
-          </div>
-          <div className="content__col">
-            <Event />
-            <hr className="hr hr--event" />
-            <Event />
-          </div>
-        </div>
+        <Events />
         <hr className="hr" />
       </div>
 

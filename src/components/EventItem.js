@@ -1,6 +1,6 @@
-import "./Event.scss";
+import "./EventItem.scss";
 
-const Event = () => {
+const EventItem = () => {
   return (
     <div className="event">
       <h2 className="event__date">05.08.2022</h2>
@@ -13,4 +13,4 @@ const Event = () => {
   );
 };
 
-export default Event;
+export default EventItem;
