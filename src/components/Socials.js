@@ -7,7 +7,7 @@ const Socials = ({ icons }) => {
         <a href={icon.url} key={icon.id}>
           <img
             src={`/assets/icons/${icon.fileName}`}
-            alt="Spotify Logo"
+            alt={icon.altText}
             className="socials__icon"
           />
         </a>

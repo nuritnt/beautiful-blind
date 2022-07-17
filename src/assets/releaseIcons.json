@@ -3,16 +3,19 @@
     {
       "id": 1,
       "fileName": "spotify.svg",
+      "altText": "Spotify Logo",
       "url": "https://google.com"
     },
     {
       "id": 2,
       "fileName": "spotify.svg",
+      "altText": "Spotify Logo",
       "url": "https://google.com"
     },
     {
       "id": 3,
       "fileName": "spotify.svg",
+      "altText": "Spotify Logo",
       "url": "https://google.com"
     }
   ]
