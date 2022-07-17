@@ -20,7 +20,13 @@ function App() {
         <Navigation />
         <Logo />
         <div className="hero">
-          <img src={hero} alt="The Beautiful Blind" className="hero__image" />
+          <img
+            src={hero}
+            alt="The Beautiful Blind"
+            className="hero__image"
+            height="960"
+            width="1440"
+          />
         </div>
 
         <div className="content content--dual">
