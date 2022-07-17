@@ -5,10 +5,10 @@ import Navigation from "./components/Nav";
 import "./App.scss";
 
 // assets
-import logo from "./images/logo.svg";
-import hero from "./images/bb-hero.jpg";
-import releaseImage from "./images/enton.jpg";
-import spotify from "./icons/spotify.svg";
+import logo from "./assets/images/logo.svg";
+import hero from "./assets/images/bb-hero.jpg";
+import releaseImage from "./assets/images/enton.jpg";
+import spotify from "./assets/icons/spotify.svg";
 
 function App() {
   return (
