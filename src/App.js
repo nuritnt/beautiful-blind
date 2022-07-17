@@ -13,7 +13,12 @@ import "./App.scss";
 import hero from "./assets/images/bb-hero.jpg";
 import releaseIcons from "./assets/releaseIcons.json";
 
+// cms data
+import { PrismicRichText, useSinglePrismicDocument } from "@prismicio/react";
+
 function App() {
+  const [about] = useSinglePrismicDocument("about");
+
   return (
     <div className="App">
       <div className="container container--top">
@@ -29,39 +34,19 @@ function App() {
           />
         </div>
 
-        <div className="content content--dual">
-          <div className="content__col">
-            <p className="lead">
-              Die Katze deiner Nachbarn faucht dich jeden Morgen an, sie
-              versperrt dir den Weg und du bist wieder zu spät dran – mit The
-              Beautiful Blind ist das egal.
-            </p>
-          </div>
-          <div className="content__col">
-            <p>
-              The Beautiful Blind sind ein noch unbeschriebenes Blatt, sie waren
-              noch nie auf Österreich-Tournee und bewegen sich irgendwo zwischen
-              Indietronic und Alternative Rock. Ihre Songtexte über
-              Alltagssituationen, ein bisschen persönlicher
-              Vergangenheitsbewältigung und ein bisschen Gesellschaftskritik
-              sind mal humorvoll, mal melancholisch und mal beides oder weder
-              noch.
-            </p>
-
-            <p>
-              Die drei Ostschweizer Jonas, Fabian und Dominik und der Luzerner
-              Ändu produzieren mit Gitarre, Drums, Synthesizer und Bass in einem
-              staubigen Zürcher Keller Tunes zu denen man tanzen, sitzen,
-              lachen, weinen oder mitgrölen kann.
-            </p>
-
-            <p>
-              The Beautiful Blind sind auch ein Stück aus der Region für die
-              Region.
-            </p>
-          </div>
-        </div>
-        <hr className="hr" />
+        {about && (
+          <>
+            <div className="content content--dual">
+              <div className="content__col lead">
+                <PrismicRichText field={about.data.about_lead} />
+              </div>
+              <div className="content__col">
+                <PrismicRichText field={about.data.about_content} />
+              </div>
+            </div>
+            <hr className="hr" />
+          </>
+        )}
 
         <Events />
         <hr className="hr" />

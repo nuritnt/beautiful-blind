@@ -35,10 +35,11 @@ body {
 p {
   font-size: 1rem;
   line-height: 1.5;
+}
 
-  &.lead {
-    font-size: 1.3rem;
-  }
+// style p in lead due to richtext editor
+.lead p {
+  font-size: 1.3rem;
 }
 
 .hr {

@@ -9,7 +9,11 @@ Sketch file can be found [here](https://www.sketch.com/s/21e3c106-669d-434b-8c2b
 
 ## Deployment
 
-Site is deployed on netlify. Preview link is (here)[https://singular-panda-ff796a.netlify.app/]
+Site is deployed on netlify. Preview link is [here](https://singular-panda-ff796a.netlify.app/).
+
+## CMS
+
+Data is provided by the cms [prismic.io](https://prismic.io/).
 
 ## Development
 
@@ -45,6 +49,6 @@ You may also see any lint errors in the console.
 - [x] split layout to components
 - [x] deploy on netlify
 - [ ] add domain
-- [ ] set up (prismic.io)
+- [x] set up (prismic.io)
 - [ ] get data from prismic and replace in the app
 - [ ] add seo
