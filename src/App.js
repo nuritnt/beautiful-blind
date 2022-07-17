@@ -1,11 +1,11 @@
 // components
 import Navigation from "./components/Nav";
+import Logo from "./components/Logo";
 
 // styles
 import "./App.scss";
 
 // assets
-import logo from "./assets/images/logo.svg";
 import hero from "./assets/images/bb-hero.jpg";
 import releaseImage from "./assets/images/enton.jpg";
 import spotify from "./assets/icons/spotify.svg";
@@ -15,10 +15,7 @@ function App() {
     <div className="App">
       <div className="container container--top">
         <Navigation />
-
-        <div className="logo">
-          <img src={logo} alt="Beautiful Blind logo" className="logo__image" />
-        </div>
+        <Logo />
         <div className="hero">
           <img src={hero} alt="The Beautiful Blind" className="hero__image" />
         </div>

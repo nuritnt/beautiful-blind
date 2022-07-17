@@ -1,0 +1,19 @@
+@import '../helpers';
+
+.logo {
+  position: fixed;
+  top: 3rem;
+  left: calc(50% - var(--logo-width) / 2);
+  width: var(--logo-width);
+
+  @include bp-mobile() {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
