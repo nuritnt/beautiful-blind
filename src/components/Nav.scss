@@ -1,0 +1,41 @@
+@import '../helpers';
+
+.navigation {
+  position: absolute;
+  width: 100%;
+
+  @include bp-mobile() {
+    top: 1rem;
+    right: 1rem;
+    width: calc(100% - var(--logo-width));
+    padding-left: 3rem;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include bp-mobile() {
+      justify-content: flex-end;
+    }
+  }
+
+  &__item {
+    list-style: none;
+    padding: 1rem;
+
+    @include bp-mobile() {
+      padding: 0 0 0.5rem 1rem;
+
+    }
+
+    a {
+      color: #3E2262;
+    }
+  }
+}
