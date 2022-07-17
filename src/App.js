@@ -1,6 +1,7 @@
 // components
 import Navigation from "./components/Nav";
 import Logo from "./components/Logo";
+import Event from "./components/Event";
 
 // styles
 import "./App.scss";
@@ -59,24 +60,9 @@ function App() {
             <h1 className="headline headline--medium">Live</h1>
           </div>
           <div className="content__col">
-            <div className="event">
-              <h2 className="event__date">05.08.2022</h2>
-              <p className="event__location">Openair Friendsheep</p>
-              <p className="event__location">Mosnang SG</p>
-              <a className="event__tickets cta" href="https://google.com">
-                Tickets
-              </a>
-            </div>
+            <Event />
             <hr className="hr hr--event" />
-
-            <div className="event">
-              <h2 className="event__date">27.08.2022</h2>
-              <p className="event__location">Zürich Openair</p>
-              <p className="event__location">Glattbrugg ZH</p>
-              <a className="event__tickets cta" href="https://google.com">
-                Tickets
-              </a>
-            </div>
+            <Event />
           </div>
         </div>
         <hr className="hr" />

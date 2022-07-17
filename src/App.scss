@@ -166,27 +166,6 @@ p {
   }
 }
 
-.event {
-  &__date {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    margin: 0;
-
-    @include bp-mobile() {
-      font-size: 1.5rem;
-    }
-  }
-
-  &__location {
-    margin: 0;
-  }
-
-  &__tickets {
-    margin: 1rem 0;
-    display: inline-block;
-  }
-}
-
 .release {
   max-width: 45rem;
   margin: 2rem auto;
