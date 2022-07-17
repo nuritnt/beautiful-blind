@@ -2,13 +2,13 @@
 import Navigation from "./components/Nav";
 import Logo from "./components/Logo";
 import Event from "./components/Event";
+import Release from "./components/Release";
 
 // styles
 import "./App.scss";
 
 // assets
 import hero from "./assets/images/bb-hero.jpg";
-import releaseImage from "./assets/images/enton.jpg";
 import spotify from "./assets/icons/spotify.svg";
 
 function App() {
@@ -69,22 +69,7 @@ function App() {
       </div>
 
       <div className="container container--middle">
-        <div className="content release centered">
-          <img
-            src={releaseImage}
-            alt="Potrait of Enton"
-            className="release__image"
-          />
-          <h2 className="headline headline--large">Die letzte Rose</h2>
-          <p className="small-hr">
-            Das neue Album
-            <br />
-            12. November 2022
-          </p>
-          <div className="socials">
-            <img src={spotify} alt="Spotify Logo" className="socials__icon" />
-          </div>
-        </div>
+        <Release />
         <hr className="hr" />
       </div>
 
