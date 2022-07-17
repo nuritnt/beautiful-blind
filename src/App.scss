@@ -180,18 +180,6 @@ p {
   }
 }
 
-.contact {
-  padding: 5rem 3rem;
-
-  @include bp-mobile() {
-    padding: 3rem 2rem;
-  }
-
-  &__title {
-    margin-bottom: 1rem;
-  }
-}
-
 .copyright {
   text-align: center;
   font-size: 0.8rem;
