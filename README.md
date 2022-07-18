@@ -45,7 +45,7 @@ You may also see any lint errors in the console.
   - [x] add contact
   - [x] add sm icons and footer
   - [x] make responsive
-  - [ ] make logo smaller when scrolling
+  - [x] make logo smaller when scrolling
 - [x] split layout to components
 - [x] deploy on netlify
 - [ ] add domain
@@ -58,3 +58,4 @@ You may also see any lint errors in the console.
 - [ ] refactor cta links to have dynamic name
 - [ ] add component for additional releases
 - [ ] add gallery
+- [ ] add vinyl animation with release cover

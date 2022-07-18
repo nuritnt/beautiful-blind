@@ -1,19 +1,33 @@
 @import '../helpers';
+$easing: cubic-bezier(0.190, 1.000, 0.220, 1.000);
 
 .logo {
   position: fixed;
   top: 3rem;
   left: calc(50% - var(--logo-width) / 2);
   width: var(--logo-width);
+  transform-origin: 50% 0;
+  transition: transform 0.5s $easing, top 0.5s $easing;
 
-  @include bp-mobile() {
-    top: 1rem;
-    left: 1rem;
+  &--scrolled {
+    top: 0.8rem;
+    transform: scale(0.4);
   }
 
   &__image {
     width: 100%;
     display: block;
     margin: 0 auto;
+  }
+
+  @include bp-mobile() {
+    top: 1rem;
+    left: 1rem;
+    transform-origin: 0 0;
+
+    &--scrolled {
+      top: 1rem;
+      transform: scale(0.7);
+    }
   }
 }

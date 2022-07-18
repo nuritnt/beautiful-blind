@@ -2,9 +2,15 @@
 @import 'helpers';
 
 .hero {
+  margin-bottom: -10rem;
+
   &__image {
     width: 100%;
     height: auto;
+  }
+
+  @include bp-mobile() {
+    margin-bottom: -5rem;
   }
 }
 
