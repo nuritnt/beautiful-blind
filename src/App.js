@@ -16,8 +16,12 @@ import socialMediaIcons from "./assets/socialMediaIcons.json";
 // cms data
 import { PrismicRichText, useSinglePrismicDocument } from "@prismicio/react";
 
+// other
+import dayjs from "dayjs";
+
 function App() {
   const [about] = useSinglePrismicDocument("about");
+  const current_year = dayjs().year();
 
   return (
     <div className="App">
@@ -66,7 +70,9 @@ function App() {
         </div>
 
         <div className="content copyright">
-          <span>2022 The Beautiful Blind</span>
+          <span>
+            <i>©</i> {current_year} The Beautiful Blind
+          </span>
         </div>
       </div>
     </div>
