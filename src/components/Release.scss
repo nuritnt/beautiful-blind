@@ -10,8 +10,12 @@
 
   &__image {
     margin: 1rem auto;
-    width: 50%;
     height: auto;
+    width: 400px;
+
+    @include bp-mobile() {
+      width: 250px;
+    }
   }
 
   &__description {
