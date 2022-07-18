@@ -1,5 +1,4 @@
 import "./Release.scss";
-import releaseImage from "../assets/images/enton.jpg";
 import Socials from "./Socials";
 import releaseIcons from "../assets/releaseIcons.json";
 import { useSinglePrismicDocument } from "@prismicio/react";

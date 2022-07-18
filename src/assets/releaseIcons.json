@@ -8,15 +8,9 @@
     },
     {
       "id": 2,
-      "fileName": "spotify.svg",
-      "altText": "Spotify Logo",
-      "url": "https://google.com"
-    },
-    {
-      "id": 3,
-      "fileName": "spotify.svg",
-      "altText": "Spotify Logo",
-      "url": "https://google.com"
+      "fileName": "soundcloud.svg",
+      "altText": "Soundcloud Logo",
+      "url": "https://soundcloud.com/thebeautifulblind"
     }
   ]
 }

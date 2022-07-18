@@ -11,7 +11,7 @@ import "./App.scss";
 
 // assets
 import hero from "./assets/images/bb-hero.jpg";
-import releaseIcons from "./assets/releaseIcons.json";
+import socialMediaIcons from "./assets/socialMediaIcons.json";
 
 // cms data
 import { PrismicRichText, useSinglePrismicDocument } from "@prismicio/react";
@@ -62,7 +62,7 @@ function App() {
 
         <hr className="hr" />
         <div className="content centered">
-          <Socials icons={releaseIcons.icons} />
+          <Socials icons={socialMediaIcons.icons} />
         </div>
 
         <div className="content copyright">
