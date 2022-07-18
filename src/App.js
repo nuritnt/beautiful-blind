@@ -40,7 +40,7 @@ function App() {
 
         {about && (
           <>
-            <div className="content content--dual">
+            <div className="content content--dual" id="about">
               <div className="content__col lead">
                 <PrismicRichText field={about.data.about_lead} />
               </div>

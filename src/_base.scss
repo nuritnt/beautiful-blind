@@ -5,6 +5,7 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  scroll-behavior: smooth;
 
   @include bp-mobile() {
     font-size: 15px;

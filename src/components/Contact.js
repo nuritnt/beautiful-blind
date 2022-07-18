@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       {contact && (
-        <div className="content content--dual contact">
+        <div className="content content--dual contact" id="contact">
           <div className="content__col">
             <h2 className="headline headline--small">Kontakt</h2>
             <div className="cta-wrap">

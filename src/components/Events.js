@@ -11,7 +11,7 @@ const Events = () => {
 
   return (
     <>
-      <div className="content content--dual">
+      <div className="content content--dual" id="live">
         <div className="content__col ">
           <h1 className="headline headline--medium">Live</h1>
         </div>

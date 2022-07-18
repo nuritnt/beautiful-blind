@@ -8,7 +8,7 @@ const Release = () => {
   return (
     <>
       {latest_release && (
-        <div className="content release centered">
+        <div className="content release centered" id="release">
           {/* {console.log(latest_release)} */}
           <img
             src={latest_release.data.image.url}
