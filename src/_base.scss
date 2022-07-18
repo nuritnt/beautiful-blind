@@ -143,6 +143,8 @@ i {
 
 .content {
   padding: var(--gutter);
+  max-width: 1400px;
+  margin: 0 auto;
 
   &--dual {
     display: flex;
