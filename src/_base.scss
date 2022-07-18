@@ -47,14 +47,6 @@ p {
 
   border-bottom: 0;
   margin: 0 var(--gutter);
-
-  &--event {
-    margin: 2rem 0;
-
-    @include bp-mobile() {
-      margin: 1rem 0;
-    }
-  }
 }
 
 .small-hr {

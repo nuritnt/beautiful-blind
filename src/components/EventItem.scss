@@ -1,6 +1,16 @@
 @import '../helpers';
 
 .event {
+  border-bottom: solid 1px var(--text-color);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   &__date {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;

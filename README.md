@@ -50,7 +50,7 @@ You may also see any lint errors in the console.
 - [x] deploy on netlify
 - [ ] add domain
 - [x] set up (prismic.io)
-- [ ] get data from prismic and replace in the app
+- [x] get data from prismic and replace in the app
 - [ ] add seo
 
 ## Future Ideas

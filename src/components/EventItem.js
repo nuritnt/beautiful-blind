@@ -1,15 +1,23 @@
 import "./EventItem.scss";
+import dayjs from "dayjs";
 
-const EventItem = () => {
+const EventItem = ({ event }) => {
+  const date = event.data.event_date;
+  const formattedDate = dayjs(date).format("DD.MM.YYYY");
+
   return (
-    <div className="event">
-      <h2 className="event__date">05.08.2022</h2>
-      <p className="event__location">Openair Friendsheep</p>
-      <p className="event__location">Mosnang SG</p>
-      <a className="event__tickets cta" href="https://google.com">
-        Tickets
-      </a>
-    </div>
+    <>
+      {event && (
+        <div className="event">
+          <h2 className="event__date">{formattedDate}</h2>
+          <p className="event__location">{event.data.event_name[0].text}</p>
+          <p className="event__location">{event.data.event_location[0].text}</p>
+          <a className="event__tickets cta" href={event.data.event_link.url}>
+            Tickets
+          </a>
+        </div>
+      )}
+    </>
   );
 };
 
