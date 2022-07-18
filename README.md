@@ -33,7 +33,7 @@ You may also see any lint errors in the console.
 
 ## TODO
 
-- [ ] build layout
+- [x] build layout
   - [x] add html foundation
   - [x] add css starter classes the bem way
   - [x] add nav
@@ -57,5 +57,6 @@ You may also see any lint errors in the console.
 
 - [ ] refactor cta links to have dynamic name
 - [ ] add component for additional releases
-- [ ] add gallery
+- [ ] add band gallery
 - [ ] add vinyl animation with release cover
+- [ ] handle past events or add archive

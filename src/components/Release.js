@@ -9,7 +9,6 @@ const Release = () => {
     <>
       {latest_release && (
         <div className="content release centered" id="release">
-          {/* {console.log(latest_release)} */}
           <img
             src={latest_release.data.image.url}
             alt={latest_release.data.image_alt_text[0].text}
