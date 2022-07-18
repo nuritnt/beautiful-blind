@@ -52,3 +52,9 @@ You may also see any lint errors in the console.
 - [x] set up (prismic.io)
 - [ ] get data from prismic and replace in the app
 - [ ] add seo
+
+## Future Ideas
+
+- [ ] refactor cta links to have dynamic name
+- [ ] add component for additional releases
+- [ ] add gallery
