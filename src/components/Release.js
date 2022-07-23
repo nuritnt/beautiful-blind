@@ -13,6 +13,8 @@ const Release = () => {
             src={latest_release.data.image.url}
             alt={latest_release.data.image_alt_text[0].text}
             className="release__image"
+            width={latest_release.data.image.dimensions.width}
+            height={latest_release.data.image.dimensions.height}
           />
           <h2 className="headline headline--large">
             {latest_release.data.title[0].text}

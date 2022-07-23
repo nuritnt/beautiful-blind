@@ -19,7 +19,13 @@ const Logo = () => {
 
   return (
     <div className={hasScrolled ? "logo logo--scrolled" : "logo"}>
-      <img src={logo} alt="Beautiful Blind logo" className="logo__image" />
+      <img
+        src={logo}
+        alt="Beautiful Blind logo"
+        className="logo__image"
+        width="528"
+        height="298"
+      />
     </div>
   );
 };
