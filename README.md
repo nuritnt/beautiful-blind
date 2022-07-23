@@ -48,10 +48,11 @@ You may also see any lint errors in the console.
   - [x] make logo smaller when scrolling
 - [x] split layout to components
 - [x] deploy on netlify
-- [ ] add domain
+- [x] add domain
 - [x] set up (prismic.io)
 - [x] get data from prismic and replace in the app
 - [ ] add seo
+- [ ] add favicon and manifest
 
 ## Future Ideas
 
