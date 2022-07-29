@@ -9,6 +9,8 @@ const Socials = ({ icons }) => {
             src={`/assets/icons/${icon.fileName}`}
             alt={icon.altText}
             className="socials__icon"
+            width={icon.width}
+            height={icon.height}
           />
         </a>
       ))}
