@@ -3,10 +3,18 @@
 .socials {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+
+  &__link {
+    @include bp-mobile() {
+        width: 50%;
+      }
+  }
 
   &__icon {
     height: 40px;
     padding: 0 1rem;
+    margin: 1rem 0;
 
     @include bp-mobile() {
       height: 30px;

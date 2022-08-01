@@ -4,7 +4,7 @@ const Socials = ({ icons }) => {
   return (
     <div className="socials">
       {icons.map((icon) => (
-        <a href={icon.url} key={icon.id}>
+        <a href={icon.url} key={icon.id} className="socials__link">
           <img
             src={`/assets/icons/${icon.fileName}`}
             alt={icon.altText}

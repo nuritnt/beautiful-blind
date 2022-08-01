@@ -9,12 +9,28 @@
       "height": "61px"
     },
     {
-      "id": 3,
+      "id": 2,
       "fileName": "youtube-music.svg",
       "altText": "Youtube Music Logo",
       "url": "https://music.youtube.com/playlist?list=OLAK5uy_kQO5D0Y_1943FSbZ9_Tt4jF8aI5ufKT3c&feature=share",
       "width": "182px",
       "height": "56px"
+    },
+    {
+      "id": 3,
+      "fileName": "apple-music.svg",
+      "altText": "Apple Music Logo",
+      "url": "https://music.apple.com/bw/artist/the-beautiful-blind/1635132859",
+      "width": "126px",
+      "height": "31px"
+    },
+    {
+      "id": 4,
+      "fileName": "mx3.svg",
+      "altText": "MX3 Logo",
+      "url": "https://mx3.ch/thebeautifulblind",
+      "width": "140px",
+      "height": "65px"
     }
   ]
 }
