@@ -51,8 +51,9 @@ You may also see any lint errors in the console.
 - [x] add domain
 - [x] set up (prismic.io)
 - [x] get data from prismic and replace in the app
-- [ ] add seo
-- [ ] add favicon and manifest
+- [x] add seo
+- [x] add favicon and manifest
+- [ ] check manifest.json
 
 ## Future Ideas
 
